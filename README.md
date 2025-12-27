@@ -128,17 +128,7 @@ book-genre-analysis/
 
 ├── data/  
 
-│ ├── books.csv   
-
-│ ├── ratings.csv  
-
-│ ├── to_read.csv  
-
-│ ├── book_tags.csv  
-
-│ ├── tags.csv  
-
-│ └── cleaned_books.csv  
+│ ├── books.sql
 
 │  
 
