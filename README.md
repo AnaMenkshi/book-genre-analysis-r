@@ -124,22 +124,34 @@ Several analyses were conducted to identify patterns:
 ## Repository Structure
 
 book-genre-analysis/
-│
-├── data/
-│ ├── books.csv
-│ ├── ratings.csv
-│ ├── to_read.csv
-│ ├── book_tags.csv
-│ ├── tags.csv
-│ └── cleaned_books.csv
-│
-├── scripts/
-│ ├── Scripts.R # Main R script for connection, cleaning, EDA, analysis
-│ ├── Scripts.Rmd # R Markdown workflow
-│ └── Scripts.html # Rendered HTML report
-│
-├── Reports/ # Optional Word or PDF reports
-├── .gitignore
+│  
+
+├── data/  
+
+│ ├── books.csv   
+
+│ ├── ratings.csv  
+
+│ ├── to_read.csv  
+
+│ ├── book_tags.csv  
+
+│ ├── tags.csv  
+
+│ └── cleaned_books.csv  
+
+│  
+
+├── reports/  
+
+│ ├── Scripts.R 
+
+│ ├── Scripts.Rmd   
+
+│ └── Scripts.html   
+
+
+├── .gitignore  
 ├── LICENSE
 └── README.md
 
